@@ -1,0 +1,62 @@
+h1 {
+  padding: 10px;
+}
+h2 {
+  font-size: 55px;
+  font-weight: 300;
+  padding: 20px;
+}
+
+ul {
+  list-style: none;
+}
+label {
+  font-size: 20px;
+  padding: 5px;
+}
+.days {
+  padding: 20px;
+  backdrop-filter: blur(1px);
+}
+.weather-app {
+  border: 1px solid #000;
+  margin-top: 40px;
+  border-radius: 10px;
+  max-width: auto;
+}
+.date {
+  background: url(kyiv2.jpg);
+  margin-left: calc(+0.5 * var(--bs-gutter-x));
+  border-radius: 10px;
+}
+
+.details {
+  margin-top: 120px;
+}
+
+.buttons {
+  background-color: #94c4e3;
+  display: block;
+  width: 100%;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.375rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -21px;
+}
+.temperature {
+  font-size: 50px;
+}
+.buttons:hover {
+  background-color: white;
+  border: 1px solid #94c4e3;
+}
