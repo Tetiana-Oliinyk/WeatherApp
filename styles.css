@@ -4,7 +4,6 @@ h1 {
 h2 {
   font-size: 55px;
   font-weight: 300;
-  padding: 20px;
 }
 
 ul {
@@ -51,15 +50,15 @@ label {
 .units {
   font-size: 20px;
   position: relative;
-  top: -21px;
+  top: -33px;
 }
 .temperature {
-  font-size: 50px;
+  font-size: 65px;
 }
 .buttons:hover {
   background-color: white;
   border: 1px solid #94c4e3;
 }
 img {
-  margin-bottom: 20px;
+  padding-bottom: 30px;
 }
