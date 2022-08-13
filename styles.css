@@ -1,5 +1,6 @@
 h1 {
-  padding: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 h2 {
   font-size: 55px;
@@ -13,11 +14,8 @@ label {
   font-size: 20px;
   padding: 5px;
 }
-img {
-  padding-bottom: 30px;
-}
-.days {
-  padding: 20px;
+
+.weather-forecast {
   backdrop-filter: blur(1px);
 }
 .weather-app {
@@ -33,7 +31,7 @@ img {
 }
 
 .details {
-  margin-top: 120px;
+  margin-top: 150px;
 }
 
 .buttons {
@@ -53,10 +51,12 @@ img {
 .units {
   font-size: 20px;
   position: relative;
-  top: -33px;
+  top: -15px;
 }
 .temperature {
   font-size: 65px;
+  position: relative;
+  top: 18px;
 }
 .buttons:hover {
   background-color: white;
@@ -65,4 +65,18 @@ img {
 
 .description::first-letter {
   text-transform: capitalize;
+}
+.weather-forecast {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.forecast-img {
+  width: 70px;
+}
+.weather-forecast-temperatures-min {
+  opacity: 0.7;
+}
+.weather-forecast-date {
+  opacity: 0.8;
+  font-size: larger;
 }

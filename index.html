@@ -18,7 +18,6 @@
 		<body>
 	<div class="container">
 		<div class="weather-app">
-		
 				<div class="row">
 					<div class="col-8 date">
 						<h1 id = "city">Kyiv</h1>
@@ -31,13 +30,42 @@
 								<span class="units">°C</span>
 							</h2>
 						</ul>
-						<div class="days">
+						<div class="weather-forecast">
 							<div class="row">
-								<div class="col">Mon</div>
-								<div class="col">Tue</div>
-								<div class="col">Wed</div>
-								<div class="col">Thu</div>
-								<div class="col">Fri</div>
+								<div class="col-2"> <div class="weather-forecast-date">Mon</div>
+									<img src="https://openweathermap.org/img/wn/04d@2x.png" class="forecast-img"/>
+								<div class="weather-forecast-temperatures">
+								<span class="weather-forecast-temperatures-max">18</span>° <span class="weather-forecast-temperatures-min">20°</span></div></div>
+								<div class="col-2">
+									<div class="weather-forecast-date">Tue</div>
+									<img src="https://openweathermap.org/img/wn/04d@2x.png" class="forecast-img"/>
+								<div class="weather-forecast-temperatures">
+								<span class="weather-forecast-temperatures-max">18</span>° <span class="weather-forecast-temperatures-min">20°</span></div>
+								</div>
+								<div class="col-2">
+									<div class="weather-forecast-date">Wed</div>
+									<img src="https://openweathermap.org/img/wn/04d@2x.png" class="forecast-img"/>
+								<div class="weather-forecast-temperatures">
+								<span class="weather-forecast-temperatures-max">18</span>° <span class="weather-forecast-temperatures-min">20°</span></div>
+								</div>
+								<div class="col-2">
+									<div class="weather-forecast-date">Thu</div>
+									<img src="https://openweathermap.org/img/wn/04d@2x.png" class="forecast-img"/>
+								<div class="weather-forecast-temperatures">
+								<span class="weather-forecast-temperatures-max">18</span>° <span class="weather-forecast-temperatures-min">20°</span></div>
+								</div>
+								<div class="col-2">
+									<div class="weather-forecast-date">Fri</div>
+									<img src="https://openweathermap.org/img/wn/04d@2x.png" class="forecast-img"/>
+								<div class="weather-forecast-temperatures">
+								<span class="weather-forecast-temperatures-max">18</span>° <span class="weather-forecast-temperatures-min">20°</span></div>
+								</div>
+								<div class="col-2">
+									<div class="weather-forecast-date">Sat</div>
+									<img src="https://openweathermap.org/img/wn/04d@2x.png" class="forecast-img"/>
+								<div class="weather-forecast-temperatures">
+								<span class="weather-forecast-temperatures-max">18</span>° <span class="weather-forecast-temperatures-min">20°</span></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -56,7 +84,7 @@
 						<input type="submit" value="Search" class="buttons shadow-sm" />
 					</form></div>
 					<ul class="details">
-						<li id="weather-details" class="description"> Clear sky </li>
+						<li id="weather-details" class="description"> <i>Clear sky</i> </li>
 						<li>Humidity: <span id="humidity">77</span>%</li>
 						<li>Wind: <span id="wind">8</span> km/h</li>
 					</ul>
