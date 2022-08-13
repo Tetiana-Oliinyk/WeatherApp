@@ -68,3 +68,28 @@ function showTemperatureCity(response) {
 
 let formCity = document.querySelector("#search-city");
 formCity.addEventListener("submit", currentWeather);
+
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `	<div class="col-2"> 
+      <div class="weather-forecast-date">
+        ${day}
+      </div>
+				<img src="https://openweathermap.org/img/wn/04d@2x.png" class="forecast-img"/>
+		    <div class="weather-forecast-temperatures">
+						<span class="weather-forecast-temperatures-max">18</span>° <span class="weather-forecast-temperatures-min">20°</span>
+		    </div>
+		</div>`;
+  });
+
+  forecastElement.innerHTML = forecastHTML;
+
+  forecastHTML = forecastHTML + `</div>`;
+}
+displayForecast();
